@@ -1,2 +1,2 @@
 # CSS3
-CSS3 Practice
+This repository contains web pages of HTML5 and CSS3 Practice & Assignments.
