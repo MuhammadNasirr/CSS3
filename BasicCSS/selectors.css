@@ -1,0 +1,30 @@
+*{
+    color:brown;
+}
+h1, h2{
+    text-decoration: underline;     /* lower precedence */
+}
+h1, h2{
+    text-decoration: overline;      /* last rule higher precedence*/
+}
+p.clr{
+    color: green;           /* specifity higher precedence */
+}
+p{
+    color: purple;          /* lower precedence */
+}
+/*h1.clr{
+    color: blue;
+}*/
+#subhead{
+    font-family: Courier New, Courier, monospace;
+}
+p>b{
+    color: blue;        /* child selector */
+}
+p>i{
+    color: red;         /* child selector */
+}
+p i{
+    color: yellow;      /* descendant selector */
+}
