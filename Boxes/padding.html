@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>padding</title>
+    <style>
+        /* padding property specifies how much space should appear between the content of an element and its border*/
+        p{
+            width: 300px;
+            border: 2px dashed red;
+        }
+        p.pad{
+            padding: 10px;
+        }
+        /*
+        You can specify different values for each side of a box using:
+        padding-top
+        padding-right
+        padding-bottom
+        padding-left
+        Or you can use a shorthand (where the values are in clockwise order: top, right, bottom, left):
+        padding: 10px 5px 3px 1px;
+        */
+    </style>
+</head>
+<body>
+    <h3>Before</h3>
+    <p>Automata theory is the study of abstract machines and automata, as well as the computational problems that can be solved using them. It is a theory in theoretical computer science, under discrete mathematics (a subject of study in both mathematics and computer science).</p>
+    <h3>After</h3>
+    <p class="pad">Automata theory is the study of abstract machines and automata, as well as the computational problems that can be solved using them. It is a theory in theoretical computer science, under discrete mathematics (a subject of study in both mathematics and computer science).</p>
+</body>
+</html>
