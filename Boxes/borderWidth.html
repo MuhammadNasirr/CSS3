@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>border-width</title>
+    <style>
+        p{
+            width: 800px;
+        }
+        /* border width values */
+        /* in pixels*/
+        p.one{
+            border-width: 2px;
+        }
+        /* thin, medium, thick */
+        p.two{
+            border-width: thick;
+        }
+        /* to control individual size of border, values appear in clockwise order: top, right, bottom, left */
+        p.three{
+            border-width: 1px, 4px, 12px, 4px;
+        }
+        /*
+        You can control the individual size of borders using four separate properties:
+        border-top-width
+        border-right-width
+        border-bottom-width
+        border-left-width
+        */
+    </style>
+</head>
+<body>
+    <p class="one">On December 17, 1903, Wilbur and Orville Wright made four brief flights at Kitty Hawk with their first powered aircraft. The Wright brothers had invented the first successful airplane.</p>
+    <p class="two">On December 17, 1903, Wilbur and Orville Wright made four brief flights at Kitty Hawk with their first powered aircraft. The Wright brothers had invented the first successful airplane.</p>
+    <p class="three">On December 17, 1903, Wilbur and Orville Wright made four brief flights at Kitty Hawk with their first powered aircraft. The Wright brothers had invented the first successful airplane.</p>
+</body>
+</html>
