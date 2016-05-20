@@ -1,0 +1,183 @@
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0; 
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.15em;
+    background-color: black;
+    box-sizing: border-box;
+    opacity: 0.5px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+}
+
+header nav ul{
+    height: 80px;
+    text-align: center;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: auto 40px;
+    text-transform: uppercase;
+    background-color: gold;
+    padding: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:active{
+    color: white;
+}
+
+header nav ul li a:hover{
+    color: white;
+}
+
+section{
+    width: 100%;
+    height: 800px;
+    box-sizing: border-box;
+    padding: 100px 50px 100px 50px;
+    overflow: hidden;
+    line-height: 1.5em;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    font-size: 3em; 
+}
+
+section#home{
+    padding: 80px 0px 100px 0px;
+    background-image: url("images/Lake-Shangrilla.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+section#about{
+    background-color: lightgoldenrodyellow;
+    text-align: justify;
+}
+
+section#destination{
+    background-color: #ffff80;
+}
+
+section#registration{
+    background-color: lightgoldenrodyellow;
+}
+
+section#contact{
+    background-color: #ffff80;
+    height: 700px;
+}
+
+section>h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section>h3{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+img.align-center {
+  display: block;
+  margin: 0px auto;
+}
+
+img.small {
+  width: 85px;
+  height: 30px;
+}
+
+.alignfig{
+    text-align: center;
+}
+
+figure{
+    display: inline-block;
+    width: 227px;
+    height: 180px;
+    background-color: #e7e3d8;
+    padding: 10px;
+    text-align: left;
+}
+
+figure img{
+    width: 225px;
+    height: 140px;
+    border: 1px solid #d6d6d6;
+}
+
+figcaption{
+    font-size: 10px;
+    line-height: 1.3em;
+}
+
+figure.cnt{
+    border: none;
+    background-color: transparent;
+}
+
+img.cnt{
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+
+figcaption.cnt{
+    font-size: 15px;
+    text-align: left;
+}
+
+input{
+    background-color: gold;
+    border: 1px solid #dcdcdc;
+}
+
+input.submit{
+    font-weight: bold;
+    color: gold;
+    background-color: black;
+    height: 40px;
+    width: 80px;
+}
+
+fieldset{
+    width: 350px;
+    border: 1px solid #dcdcdc;
+}
+
+legend{
+    background-color: goldenrod;
+    border: 1px solid #dcdcdc;
+    text-transform: uppercase;
+} 
+
+footer {
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  background-color: black;
+  bottom: 0px;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  color: white;
+}
+
